@@ -13,7 +13,7 @@ To use the tarfile, do something like this in your `.travis.yml`:
 
 ```
 before_install:
-  - curl -L https://github.com/urdh/texlive-blob/releases/download/<tag>/texlive.tar.xz | tar -JxC /usr/local/texlive
+  - curl -L https://github.com/urdh/texlive-blob/releases/download/20150408/texlive.tar.xz | tar -JxC /usr/local/texlive
 
 install:
   - PATH=/usr/local/texlive/bin/x86_64-linux:$PATH
