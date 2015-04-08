@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+TARFILE_NAME=$1
 
 wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 tar xf install-tl-unx.tar.gz
