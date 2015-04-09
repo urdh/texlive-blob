@@ -45,6 +45,7 @@ collection-langczechslovak 0
 collection-langdanish 0
 collection-langdutch 0
 collection-langenglish 1
+collection-langeuropean 1
 collection-langfinnish 0
 collection-langfrench 0
 collection-langgerman 1
