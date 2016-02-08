@@ -1,6 +1,6 @@
 # Prebuilt TeX live blobs
 
-[![Travis CI](https://img.shields.io/travis/urdh/texlive-blob.svg)](https://travis-ci.org/urdh/texlive-blob)
+[![Travis CI](https://img.shields.io/travis/urdh/texlive-blob/master.svg)](https://travis-ci.org/urdh/texlive-blob)
 [![Github release](https://img.shields.io/github/release/urdh/texlive-blob.svg)](https://github.com/urdh/texlive-blob/releases/latest)
 
 Prebuilt bundles of TeX Live for use in the Travis CI environment.
