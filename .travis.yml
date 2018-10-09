@@ -10,9 +10,10 @@ after_success:
 deploy:
   provider: releases
   api_key:
-    secure: D14Yidjgzfs/M56SuVbhoxp5mHnWwfyQD8YauBVwRqLgrk4RKleSPNZHAP/J5qzw+cSuqVaOUoga01vAMI3tdTLUDtmxvA7KcDwZfx8Cb9s0nBWL7dCrc9riwMnJxJfh7fCyK6JP/fWX+WeDwIGg3ZG/cRfmbDXXZ7kvzcd2dqg=
+    secure: bUe/Q1Gcl8NNmtOOAXzu7NgWYOwfVJvP3+pRw8RuTgZElT+UpA2ncdUyBFsBzjDzkirFXcIsJSjVd/qzcMv8kEKxL5XgauwfyK6W6NayHpxVCOPCLncgHaatT1TukG8XRbZh4h343XuhSaUA9gNTxglqStbuS3n+Il7fuxh8j1Q=
   skip_cleanup: true
   file:
     - texlive.tar.xz
   on:
     tags: true
+    repo: urdh/texlive-blob
